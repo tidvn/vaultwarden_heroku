@@ -11,7 +11,9 @@ env:
   DUO_ENABLE: 1
   GIT_HASH: main
   HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-  HEROKU_VERIFIED: 1
+  HEROKU_VERIFIED: 0
+  APP_DOMAIN:  ${{ secrets.APP_DOMAIN }}
+
 
 jobs:
   update_and_deploy:

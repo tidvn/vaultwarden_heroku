@@ -25,6 +25,7 @@ Usage is simple, fast, and user friendly!
 3. Go to your forked repo Settings > Secrets and add secrets for:
   * HEROKU_API_KEY (yoru Heroku API key - can be found in **[Account Setings](https://dashboard.heroku.com/account)** -> APi Keys)
   * HEROKU_APP_NAME (the name of the Heroku application, this must be unqiue across Heroku and will fail if it is not) [Value alphanumerical]
+  * APP_DOMAIN
   * **HEROKU_VERIFIED (required regardless, if you have added a credit card on, your account will be verified to use built in addons, if not please see "NON VERIFIED ACCOUNTS" section)** [Value 0/1]
 4. Go to the Actions tab, select the BitwardenRSOnHerokuAIO_Deploy job and wait!
 5. Github Actions will run the job and begin deploying the app. This will take around 15 minutes.

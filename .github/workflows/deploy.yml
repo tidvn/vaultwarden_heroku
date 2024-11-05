@@ -13,6 +13,7 @@ env:
   HEROKU_VERIFIED: 1
   OFFSITE_HEROKU_DB: ${{ secrets.OFFSITE_HEROKU_DB }}
   HEROKU_CREATE_OPTIONS: ${{ secrets.HEROKU_CREATE_OPTIONS }}
+  APP_DOMAIN:  ${{ secrets.APP_DOMAIN }}
 
 jobs:
   create_and_deploy_app:
